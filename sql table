@@ -1,0 +1,11 @@
+...
+CREATE TABLE "client" (
+	"id"	INTEGER NOT NULL,
+	"name"	TEXT NOT NULL,
+	"mobile"	TEXT,
+	"email"	TEXT,
+	"address"	TEXT,
+	"status"	INTEGER,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+...
